@@ -38,11 +38,12 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
-  "author": "",
-  "homepage": "",
+  "author": "davidbonan",
+  "homepage": "https://github.com/davidbonan/excalidraw-share-peer-link",
   "license": "MIT",
-  "repository": "",
+  "repository": "https://github.com/davidbonan/excalidraw-share-peer-link",
   "keywords": [
-    "react-component"
+    "react-component",
+    "excalidraw"
   ]
 }
