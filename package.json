@@ -13,18 +13,28 @@
   "scripts": {
     "build": "nwb build-react-component",
     "clean": "nwb clean-module && nwb clean-demo",
-    "prepublishOnly": "npm run build",
+    "prepublish": "npm run build",
     "start": "nwb serve-react-demo",
-    "test": "nwb test-react",
-    "test:coverage": "nwb test-react --coverage",
-    "test:watch": "nwb test-react --server"
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "DEBUG_PRINT_LIMIT=100000 jest --watch"
   },
   "dependencies": {},
   "peerDependencies": {
     "react": "16.x"
   },
   "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
+    "@testing-library/jest-dom": "^5.3.0",
+    "@testing-library/react": "^10.0.2",
+    "babel-jest": "^25.2.4",
+    "babel-polyfill": "^6.26.0",
+    "jest": "^25.2.4",
     "nwb": "0.24.x",
+    "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
