@@ -4,10 +4,10 @@
 [![Coveralls][coveralls-badge]][coveralls]
 
 [npm-badge]: https://img.shields.io/npm/v/npm-package.png?style=flat-square
-[npm]: https://www.npmjs.org/package/npm-package
+[npm]: https://www.npmjs.org/package/excalidraw-share-peer-link
 
 [coveralls-badge]: https://img.shields.io/coveralls/user/repo/master.png?style=flat-square
-[coveralls]: https://coveralls.io/github/user/repo
+[coveralls]: https://coveralls.io/github/davidbonan/excalidraw-share-peer-link
 
 Excalidraw share peer link is a lib for React 16+, he provide a simple `<a>` link and function for generate the href to open new tab of Excalidraw with peer session.
 
